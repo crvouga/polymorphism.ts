@@ -1,4 +1,4 @@
-import { defineFunction } from "./polymorphism.ts";
+import { defineFunction } from "./gen.ts";
 
 //
 //
@@ -18,7 +18,7 @@ const perimeter = defineFunction<Perimeter>();
 
 type Volume<T> = (shape: T) => number;
 
-const volume = defineFunction<Volumn>();
+const volume = defineFunction<Volume>();
 
 //
 //
